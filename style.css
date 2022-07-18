@@ -136,6 +136,59 @@ article {
   word-wrap: break-word;
   color: white;
 }
+.section-5 {
+  padding-top: 2rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.section-5 hr {
+  width: 4rem;
+}
+
+.contact-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contact {
+  width: 2rem;
+  font-size: 2rem;
+  color: black;
+}
+.sec-5-part-2 {
+  display: flex;
+  margin: 5rem;
+}
+.main {
+  width: 20rem;
+}
+.form-contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.main input {
+  width: 9rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  padding: 0.1rem;
+  margin-bottom: 1rem;
+}
+.sec-5-part-2 textarea {
+  border-radius: 0.5rem;
+  width: 20rem;
+  height: 5rem;
+  margin-bottom: 1rem;
+}
+footer {
+  text-align: center;
+}
+
 @media (max-width: 600px) {
   .hero-art article {
     text-align: center;
