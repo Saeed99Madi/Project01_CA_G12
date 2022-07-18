@@ -32,8 +32,9 @@ article {
   margin-left: 1.5vw;
   display: flex;
   flex-direction: column;
+  word-wrap: break-word;
 }
-.hero-art article form button {
+.btn-battern {
   padding: 0.8rem;
   border: 0.05rem solid black;
   border-radius: 2rem;
@@ -45,8 +46,53 @@ article {
   right: 3.5vw;
   bottom: 88.5vh;
 }
+.section-2 {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.section-2 hr {
+  width: 4rem;
+}
+.section-2 article {
+  word-wrap: break-word;
+}
+.servises {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  font-size: 2.8rem;
+  flex-wrap: wrap;
+}
+.servises hr {
+  position: absolute;
+  color: black;
+  z-index: -1;
+  width: 33rem;
+  bottom: 2.2rem;
+  border-width: 0.1rem;
+}
+.icon-service {
+  background-color: white;
+  margin: 0.5rem;
+  width: 3.8rem;
+  height: 3.8rem;
+  border: 0.1rem solid black;
+  border-radius: 50%;
+  padding: 1rem;
+  padding-top: 1.2rem;
+}
+.discription {
+  width: 60vw;
+}
 @media (max-width: 600px) {
   .hero-art article {
     text-align: center;
+  }
+  .servises hr {
+    display: none;
   }
 }
