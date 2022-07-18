@@ -16,6 +16,7 @@ body {
 }
 .hero-art img {
   width: 22rem;
+  height: 22rem;
   min-width: 40;
   border-radius: 50%;
   margin-right: 1.5vw;
@@ -89,7 +90,32 @@ article {
   padding-top: 1.2rem;
 }
 .discription {
-  width: 60vw;
+  width: 22rem;
+}
+.section-3 {
+  padding-top: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  word-wrap: break-word;
+  padding-bottom: 5rem;
+  background-color: rgb(241, 239, 234);
+}
+.section-3 hr {
+  width: 4rem;
+}
+.section-3 img {
+  width: 22rem;
+}
+.card {
+  display: flex;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+.left-card {
+  flex-direction: row-reverse;
 }
 @media (max-width: 600px) {
   .hero-art article {
