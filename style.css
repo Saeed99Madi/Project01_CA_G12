@@ -121,6 +121,16 @@ article {
   .hero-art article {
     text-align: center;
   }
+  .hero-section {
+    height: 50rem;
+  }
+  .section-2 {
+    margin-top: 2rem;
+  }
+  .section-3 {
+    padding-top: 7rem;
+    margin-top: 9rem;
+  }
   .servises hr {
     display: none;
   }
