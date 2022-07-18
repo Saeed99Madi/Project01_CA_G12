@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+.hero-section {
+  background-color: rgb(241, 239, 234);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  word-wrap: break-word;
+  position: relative;
+  height: 95vh;
+}
+.hero-art img {
+  width: 22rem;
+  min-width: 40;
+  border-radius: 50%;
+  margin-right: 1.5vw;
+}
+.hero-art {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+article {
+  width: 22rem;
+  margin-left: 1.5vw;
+  display: flex;
+  flex-direction: column;
+}
+.hero-art article form button {
+  padding: 0.8rem;
+  border: 0.05rem solid black;
+  border-radius: 2rem;
+}
+.hero-section a {
+  color: black;
+  position: absolute;
+  z-index: 99;
+  right: 3.5vw;
+  bottom: 88.5vh;
+}
+@media (max-width: 600px) {
+  .hero-art article {
+    text-align: center;
+  }
+}
