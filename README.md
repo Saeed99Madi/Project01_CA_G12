@@ -5,7 +5,7 @@ Our page is an Responsive landing page,
 
 * Live Link [Here](https://saeed99madi.github.io/Project01_CA_G12/)
 
-## How To clone Our App:
+## How To clone my WebPage:
 * Open gitBash wherever you want to save the project on your device.
 * Clone the repository to your device (`git clone repo link`).
 * Enter repo `cd nameOfRepo`
