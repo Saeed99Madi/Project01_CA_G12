@@ -2,7 +2,7 @@
 Our page is an Responsive landing page, 
 
 ## Links
-* [Design](https://www.figma.com/file/sx5orKLY8z4JLpZyaeLnZc/Untitled?node-id=0%3A1)
+
 * Live Link [Here](https://saeed99madi.github.io/Project01_CA_G12/)
 
 ## How To clone Our App:
