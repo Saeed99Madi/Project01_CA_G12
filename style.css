@@ -1,9 +1,11 @@
+/* reset styles */
 body {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
 }
+/* section 1 styles */
 .hero-section {
   font-size: 1.5rem;
   background-color: rgb(241, 239, 234);
@@ -29,6 +31,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+/* //article style general  */
 article {
   width: 22rem;
   margin-left: 1.5vw;
@@ -48,6 +51,7 @@ article {
   right: 3.5vw;
   bottom: 88.5vh;
 }
+/* section 2 styles */
 .section-2 {
   padding-top: 2rem;
   height: 80vh;
@@ -92,6 +96,7 @@ article {
 .discription {
   width: 22rem;
 }
+/* section 3 styles */
 .section-3 {
   padding-top: 7rem;
   display: flex;
@@ -117,6 +122,7 @@ article {
 .left-card {
   flex-direction: row-reverse;
 }
+/* section 4 styles */
 .section-4 {
   background-image: url("https://images.unsplash.com/photo-1658151134677-699b1684011d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
   padding-top: 2rem;
@@ -136,6 +142,7 @@ article {
   word-wrap: break-word;
   color: white;
 }
+/* section 5 styles */
 .section-5 {
   padding-top: 2rem;
   height: 100vh;
@@ -188,7 +195,7 @@ article {
 footer {
   text-align: center;
 }
-
+/* queiry for responsive design */
 @media (max-width: 600px) {
   .hero-art article {
     text-align: center;
