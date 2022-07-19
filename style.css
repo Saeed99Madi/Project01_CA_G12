@@ -41,6 +41,7 @@ article {
 }
 .btn-battern {
   padding: 0.8rem;
+  width: 8rem;
   border: 0.05rem solid black;
   border-radius: 2rem;
 }
@@ -108,6 +109,7 @@ article {
   padding-bottom: 5rem;
   background-color: rgb(241, 239, 234);
 }
+
 .section-3 hr {
   width: 4rem;
 }
@@ -118,6 +120,7 @@ article {
   display: flex;
   padding: 2rem;
   flex-wrap: wrap;
+  text-align: left;
 }
 .left-card {
   flex-direction: row-reverse;
@@ -155,6 +158,9 @@ article {
 }
 .section-5 hr {
   width: 4rem;
+}
+.section-5 .btn-battern {
+  width: 22rem;
 }
 
 .contact-icons {
@@ -209,6 +215,9 @@ footer {
   .section-3 {
     padding-top: 7rem;
     margin-top: 9rem;
+  }
+  .card {
+    text-align: center;
   }
   .servises hr {
     display: none;
